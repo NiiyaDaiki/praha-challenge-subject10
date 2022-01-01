@@ -12,7 +12,7 @@ export default {
 // 各ストーリーを単一の Template 変数に割り当てる
 const Template = (args) => <Square {...args} />;
 
-// Squareに対する3つのテスト用の状態を書いていく
+// Squareに対するテスト用の状態を書いていく
 export const Default = Template.bind({});
 Default.args = {
   value: null,
