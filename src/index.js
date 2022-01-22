@@ -10,8 +10,8 @@ const App = () => {
       squares: Array(9).fill(''),
     },
   ]);
-  const [stepNumber, setStepNumber] = useState(0);
 
+  const [stepNumber, setStepNumber] = useState(0);
   return (
     <Game
       history={history}

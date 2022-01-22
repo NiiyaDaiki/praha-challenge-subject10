@@ -31,3 +31,15 @@ export const FillTriangle = Template.bind({});
 FillTriangle.args = {
   squares: Array(9).fill('▲'),
 };
+
+// ['X', 'O', '▲']のうちランダムな値でボードを埋めるストーリーを作成。
+const shape = ['X', 'O', '▲'];
+const getRandomShape = () => {
+  return shape[Math.floor(Math.random() * shape.length)];
+};
+export const FillRandom = Template.bind({});
+FillRandom.args = {
+  squares: Array(9)
+    .fill()
+    .map(() => getRandomShape()),
+};
