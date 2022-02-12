@@ -1,5 +1,5 @@
 import initStoryshots from '@storybook/addon-storyshots';
-import { imageSnapshot } from '@storybook/adうdon-storyshots-puppeteer';
+import { imageSnapshot } from '@storybook/addon-storyshots-puppeteer';
 
 initStoryshots({
   suite: 'Puppeteer storyshots',
