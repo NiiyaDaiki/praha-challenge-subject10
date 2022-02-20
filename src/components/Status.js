@@ -10,7 +10,7 @@ export const Status = (props) => {
     status = 'Winner: ' + winner;
   } else {
     // setStatus('Next player:' + (xIsNext ? 'X' : 'O'));
-    status = 'Next player:' + (xIsNext ? 'X' : 'O');
+    status = '次のプレイヤー:' + (xIsNext ? 'X' : 'O');
   }
 
   return <>{status}</>;
