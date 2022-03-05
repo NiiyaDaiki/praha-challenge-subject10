@@ -13,5 +13,9 @@ export const Status = (props) => {
     status = '次のプレイヤー:' + (xIsNext ? 'X' : 'O');
   }
 
-  return <>{status}</>;
+  return (
+    <>
+      <span data-e2e="status">{status}</span>
+    </>
+  );
 };
