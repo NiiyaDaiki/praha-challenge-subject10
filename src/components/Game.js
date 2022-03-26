@@ -96,7 +96,7 @@ function calculateWinner(squares, stepNumber) {
     }
   }
   if (stepNumber > 8) {
-    return 'draw';
+    return 'Draw!';
   }
 
   return null;
